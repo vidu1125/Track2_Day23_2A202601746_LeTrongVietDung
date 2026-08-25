@@ -1,0 +1,7 @@
+{"ts": 1787650851.5514061, "iso": "2026-08-25T09:40:51Z", "step": 1, "name": "xac_nhan_outage", "primary": "a", "primary_ready": false, "reason": "error_ReadTimeout"}
+{"ts": 1787650851.552084, "iso": "2026-08-25T09:40:51Z", "step": 2, "name": "thong_bao_incident", "primary": "a", "target": "b", "notice": "DR failover initiated"}
+{"ts": 1787650851.5522702, "iso": "2026-08-25T09:40:51Z", "step": 3, "name": "scale_gpu_pool", "target": "b"}
+{"ts": 1787650857.76033, "iso": "2026-08-25T09:40:57Z", "step": 4, "name": "verify_state_replica", "target": "b", "rpo_seconds": 6.01, "docs_lost": 3}
+{"ts": 1787650857.760631, "iso": "2026-08-25T09:40:57Z", "step": 5, "name": "dns_cutover", "target": "b", "ok": true}
+{"ts": 1787650858.392294, "iso": "2026-08-25T09:40:58Z", "step": 6, "name": "verify_golden_signals", "target": "b", "sample_count": 10, "error_rate": 0.0, "p95_ms": 12.3}
+{"ts": 1787650858.39268, "iso": "2026-08-25T09:40:58Z", "step": 7, "name": "post_incident", "total_elapsed_s": 8.95, "status": "COMPLETED"}
